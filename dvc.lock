@@ -69,7 +69,11 @@ stages:
       params.yaml:
         AUGMENTATION: true
         BATCH_SIZE: 16
+<<<<<<< HEAD
         EPOCHS: 7
+=======
+        EPOCHS: 5
+>>>>>>> da42de07bb0e444d502178208770ae175b1b2813
         IMAGE_SIZE:
         - 224
         - 224

@@ -1,6 +1,5 @@
 # Kidney-Disease-Classification-MLflow-DVC-CICD-AWS-Deployment
 
-
 ## Workflows
 
 1. Update config.yaml
@@ -25,7 +24,7 @@ https://github.com/Supratim0406/E2E-MLOps-Kidney-Disease-Image-Classification-De
 ### STEP 01- Create a conda environment after opening the repository
 
 ```Powershell
-py -3.11 -m venv venv311
+py -3.10 -m venv venv310
 ```
 
 ```Powershell
@@ -34,7 +33,7 @@ venv311\Scripts\Activate
 
 
 ### STEP 02- install the requirements
-```bash
+```Powershell
 pip install -r requirements.txt
 ```
 
@@ -95,13 +94,14 @@ MLflow
  - Trace all of your expriements
  - Logging & taging your model
 
+<img width="1896" height="958" alt="image" src="https://github.com/user-attachments/assets/5dc98b35-5eec-4bae-b64f-88645ed1e062" />
+
 
 DVC 
 
  - Its very lite weight for POC only
  - lite weight expriements tracker
  - It can perform Orchestration (Creating Pipelines)
-
 
 
 # AWS-CICD-Deployment-with-Github-Actions
@@ -137,7 +137,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI:
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
