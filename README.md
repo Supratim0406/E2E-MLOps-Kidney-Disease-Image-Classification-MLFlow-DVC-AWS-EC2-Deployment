@@ -1,5 +1,9 @@
 # Kidney-Disease-Classification-MLflow-DVC-CICD-AWS-Deployment
 
+## 🎥 Demo
+
+[▶️ Watch Demo Video](https://github.com/user-attachments/assets/97340a4c-3156-49a6-bfb5-716cc460254f)
+
 ## Workflows
 
 1. Update config.yaml
@@ -174,6 +178,8 @@ DVC
     AWS_REGION = us-east-1
 
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+
+
 
     ECR_REPOSITORY_NAME = simple-app
 
