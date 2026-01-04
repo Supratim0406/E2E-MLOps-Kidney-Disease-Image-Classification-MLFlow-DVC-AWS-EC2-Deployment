@@ -179,11 +179,11 @@ DVC
 
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
+    ECR_REPOSITORY_NAME = simple-app
+
 # 8. CICD Deployment:
 <img width="1898" height="953" alt="image" src="https://github.com/user-attachments/assets/b4b80efb-6560-4c92-ad88-a1aec81bf4db" />
 
 
 
-
-    ECR_REPOSITORY_NAME = simple-app
 
